@@ -104,10 +104,10 @@ function App() {
     <>
       <div style={{ backgroundColor: "#1C538E" }} className="w-full h-screen">
         <div className="flex flex-col items-center p-5">
-          <img src={password_icon} alt="" className="w-24" />
-          <h1 className=" rounded-xl p-2 m-5 left-12 static text-center text-4xl font-bold text-white">
+          <img src={password_icon} alt="" className="w-20" />
+          <h4 className=" rounded-xl p-2 m-2 text-center text-3xl font-bold text-white">
             Password Generator
-          </h1>
+          </h4>
           <div
             className="h-auto w-full max-w-xl mx-auto rounded-xl flex justify-center items-center flex-col flex-wrap"
             style={{ backgroundColor: "#a3afdf" }}
