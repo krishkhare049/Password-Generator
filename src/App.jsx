@@ -94,7 +94,7 @@ function App() {
 
     Swal.fire({
       title: "Password copied!",
-      text: "Your password is { " + total_pass + "}",
+      text: "Your password is { " + total_pass + " }",
       icon: "success",
       confirmButtonText: "Cool",
     });
