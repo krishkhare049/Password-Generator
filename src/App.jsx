@@ -93,7 +93,7 @@ function App() {
               <label htmlFor="len_range" className="text-base mr-3">
                 Length ({length})
               </label>
-            </div>
+            </div><br />
             <div className="flex items-center">
               <input
                 type="checkbox"
