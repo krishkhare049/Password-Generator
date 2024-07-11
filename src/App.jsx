@@ -56,13 +56,13 @@ function App() {
           Password Generator
         </h1>
         <div
-          className="h-48 w-full max-w-xl mx-auto rounded-xl flex justify-center items-center flex-col"
+          className="h-48 w-full max-w-xl mx-auto rounded-xl flex justify-center items-center flex-col flex-wrap"
           style={{ backgroundColor: "#a3afdf" }}
         >
-          <div className="my-2 flex justify-center items-center">
+          <div className="my-2 flex justify-center items-center w-11/12">
             <input
               type="text"
-              className="p-2 m-1 h-10 rounded-md rounded-r-none w-96 mr-0 text-sm"
+              className="p-2 m-1 h-10 rounded-md rounded-r-none w-11/12 max-w-96 mr-0 text-sm"
               value={password}
               ref={pass_Ref}
               readOnly
@@ -75,8 +75,8 @@ function App() {
             </button>
           </div>
 
-          <div className="flex justify-evenly">
-            <div className="flex items-center">
+          <div className="flex justify-evenly flex-wrap">
+            <div className="flex items-center justify-center flex-wrap">
               <input
                 type="range"
                 style={{ backgroundColor: "red" }}
