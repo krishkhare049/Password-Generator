@@ -117,7 +117,7 @@ function App() {
 
               <input
                 type="text"
-                className="bg-slate-600 text-white rounded-xl py-3 px-2 w-14 text-xs text-center rounded-r-none"
+                className="bg-slate-600 text-white rounded-xl py-3 px-1 w-16 text-xs text-center rounded-r-none"
                 value={attach_str}
                 ref={attachedPassRef}
                 readOnly
