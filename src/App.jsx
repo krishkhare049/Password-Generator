@@ -212,7 +212,7 @@ function App() {
                   className="rounded-lg px-2 py-1 m-1 text-cyan-950"
                   maxLength={8}
                   onChange={(e) => {
-                    setAttachStr(e.target.value);
+                    setAttachStr((e.target.value).trim());
                   }}
                 />
               </div>
